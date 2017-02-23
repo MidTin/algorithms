@@ -26,5 +26,5 @@ def bubble_sort(s):
 if __name__ == "__main__":
     s = [6, 5, 3, 1, 8, 7, 4]
     print('Before:', s)
-    s = bubble_sort(s)
+    bubble_sort(s)
     print('After:', s)

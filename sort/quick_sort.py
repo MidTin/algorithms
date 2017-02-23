@@ -39,5 +39,5 @@ def quick_sort(s, start, stop):
 if __name__ == "__main__":
     s = [6, 5, 3, 1, 8, 7, 4]
     print('Before:', s)
-    s = quick_sort(s, 0, len(s))
+    quick_sort(s, 0, len(s))
     print('After:', s)
